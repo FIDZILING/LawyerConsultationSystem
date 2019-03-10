@@ -1,0 +1,74 @@
+/*浏览器兼容*/
+/*IE10 禁用X和眼睛*/
+::-ms-clear, ::-ms-reveal {
+	display: none;
+}
+/*谷歌、safari浏览器输入框选中提示*/
+input, button, select, textarea {
+	outline: none
+}
+
+textarea {
+	resize: none
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	cursor: pointer;
+}
+
+a:active {
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+}
+
+input {
+	padding-left: 20px;
+	width: 180px;
+	height: 28px;
+	font-size: 16px;
+	border: #aaa solid 1px;
+	border-radius: 20px;
+}
+
+input:focus {
+	border: blue solid 1px;
+}
+
+button {
+	width: 150px;
+	height: 32px;
+	background: rgb(107, 107, 107);
+	font-size: 20px;
+	color: white;
+	border: rgb(107, 107, 107) solid 1px;
+	border-radius: 20px;
+}
+
+button:hover {
+	box-shadow: 5px 12px 16px 0 rgba(0, 0, 0, 0.2), 0 17px 50px 0
+		rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+li {
+	list-style-type: none;
+}
